@@ -27,7 +27,11 @@ function moveDodgerRight() {
   let leftNumbers = dodger.style.left.replace("px", "");
   let left = parseInt(leftNumbers, 10);
  
-  if ( left > 0) {
+ let bl=document.getElementById('game');
+ let limitRight=bl.offsetWidth - dodger.offsetWidth;
+ console.log(limitRight);
+ //if ( left < limitRight) { this is the code which works but learn did not accept
+  if ( left > limitRight) {
     dodger.style.left = `${left + 1}px`;
   }
 }
