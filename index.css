@@ -1,13 +1,6 @@
-#dodger1 {
+#dodger {
   background-color: white;
-  height: 160px;
-  position: absolute;
-  width: 40px;
-}
-
-#dodger2 {
-  background-color: white;
-  height: 160px;
+  height: 20px;
   position: absolute;
   width: 40px;
 }

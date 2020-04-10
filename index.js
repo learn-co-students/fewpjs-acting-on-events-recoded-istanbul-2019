@@ -21,7 +21,7 @@ function moveDodgerRight() {
   let leftNumbers = dodger.style.left.replace("px", "");
   let left = parseInt(leftNumbers, 10);
 
-  
+  //let gameWidthStr = getComputedStyle(game).width.replace("px", "");
   let gameWidth = 400;
   let dodgerWidth = 40;
 
